@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane alignment="CENTER" hgap="10.0" prefHeight="287.0" prefWidth="302.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="lab1.client.Controller">
+  <children>
+    <Pane prefHeight="304.0" prefWidth="321.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+      <children>
+        <Button fx:id="connectButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onConnectButtonClick" prefWidth="73.0" text="connect" />
+        <TextField fx:id="hostTextField" layoutX="72.0" layoutY="48.0" prefWidth="107.5" text="0.0.0.0" />
+        <Label layoutX="14.0" layoutY="51.0" text="host" />
+        <TextField fx:id="portTextField" layoutX="72.0" layoutY="79.0" prefWidth="107.5" text="1025" />
+        <Label layoutX="14.0" layoutY="82.0" text="port" />
+        <TextField id="portTextField" fx:id="messageTextField" layoutX="72.0" layoutY="144.0" prefWidth="107.5" text="hello" />
+        <Label layoutX="14.0" layoutY="147.0" text="message" />
+        <Button id="connectButton" layoutX="14.0" layoutY="114.0" mnemonicParsing="false" onAction="#onSendButtonClick" prefWidth="73.0" text="send" />
+        <Label layoutX="14.0" layoutY="176.0" text="response" />
+        <TextArea fx:id="responseTextField" layoutX="72.0" layoutY="176.0" prefHeight="97.0" prefWidth="216.0" wrapText="true" />
+      </children>
+    </Pane>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+</GridPane>
