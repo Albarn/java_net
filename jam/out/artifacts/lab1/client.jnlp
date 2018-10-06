@@ -8,7 +8,7 @@
     <update check="background"/>
     <resources>
         <j2se version="10.0.1+" href="http://java.sun.com/products/autodl/j2se"/>
-        <jar href="client.jar" size="17243" download="eager"/>
+        <jar href="client.jar" size="20474" download="eager"/>
         <jar href="lab1.jar" size="2423" download="eager"/>
         <jar href="lab1\server\lab1.jar" size="2395" download="eager"/>
         <jar href="server.jar" size="2752" download="eager"/>

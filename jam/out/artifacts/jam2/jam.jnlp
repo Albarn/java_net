@@ -9,7 +9,7 @@
     <resources>
         <j2se version="10.0.1+" href="http://java.sun.com/products/autodl/j2se"/>
         <jar href="client.jar" size="5004" download="eager"/>
-        <jar href="jam.jar" size="17240" download="eager"/>
+        <jar href="jam.jar" size="20471" download="eager"/>
         <jar href="lab1.jar" size="2423" download="eager"/>
         <jar href="server.jar" size="2752" download="eager"/>
     </resources>

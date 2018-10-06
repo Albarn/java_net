@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane alignment="CENTER" hgap="10.0" prefHeight="254.0" prefWidth="302.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="lab3.client.Controller">
+  <children>
+    <Pane prefHeight="258.0" prefWidth="302.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+      <children>
+        <Button fx:id="connectButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onConnectButtonClick" prefWidth="73.0" text="connect" />
+        <TextField fx:id="hostTextField" layoutX="72.0" layoutY="48.0" prefWidth="107.5" text="0.0.0.0" />
+        <Label layoutX="14.0" layoutY="51.0" text="host" />
+        <Label layoutX="13.0" layoutY="83.0" text="response" />
+        <TextArea fx:id="responseTextField" layoutX="72.0" layoutY="83.0" prefHeight="163.0" prefWidth="216.0" wrapText="true" />
+      </children>
+    </Pane>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+</GridPane>
